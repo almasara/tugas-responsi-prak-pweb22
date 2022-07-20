@@ -1,0 +1,249 @@
+/* css untuk mengatur header */
+.headerTA {
+    position: left;
+    font-family: "Hany Petter font";
+    font-size: 100px;
+    width: 500%;
+    height: 300px;
+    background: url(header_background.jpg);
+}
+
+/* css untuk memasukan huruf baru kedalam html untuk nanti digunakan/dipanggi dalam css */
+@font-face {
+    font-family: "Hany Petter font";
+    src: url('Hany\ Petter.ttf');
+}
+
+/* membuat garis */
+.garis {
+    transform: translateX(-10%)translateY(-25%);
+    color: white;
+    width: 500%;
+    border: 0.5px;
+    border-style: solid;
+}
+
+/* css untuk mengatur tag h1  */
+h1 {
+    text-align: center;
+    font-family: "Hany Petter font";
+    font-size: 80px;
+    font-weight: 550;
+}
+
+/*css untuk mengatur program yang ada disebelah kiri */
+.program01 {
+    background-color: #ffc2d1;
+    border: transparent;
+    float: right;
+    width: 30%;
+    height: 165%;
+
+}
+
+/* css untuk program kalender */
+.program-kalender {
+    background-color: #9df7e5;
+    border-color: grey;
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: transparent;
+    border-radius: 15px;
+}
+
+.kalender-bulan {
+    font-family: "Hany Petter font";
+    text-align: center;
+    font-size: 40px;
+}
+
+.garis-kalender {
+    color: white;
+    width: 500%;
+    border: 0.5px;
+    border-style: solid;
+}
+
+.kalender-hari li {
+    color: #666;
+    list-style-type: none;
+    width: 12%;
+    text-align: center;
+    display: inline-block;
+}
+
+.kalender-tanggal li {
+    color: #777;
+    list-style-type: none;
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.kalender-libur {
+    background: #ff8fa3;
+    padding-top: 0.5ch;
+    width: 2%;
+    height: 30px;
+    border-radius: 50px;
+}
+
+/* css untuk mengatur program kalkulator */
+
+.program-kalkulator {
+    background-color: #9df7e5;
+    border-color: grey;
+    margin-left: 1.4cm;
+    margin-top: 0.5cm;
+    border-style: solid;
+    width: 350px;
+    height: 390px;
+}
+
+
+h2 {
+    color: white;
+    font-family: "Hany Petter font";
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0.3cm;
+    margin-bottom: -0.2cm;
+    padding: 2px;
+}
+
+.tombol-kiri {
+
+    background: #ff99ac;
+    color: white;
+    width: 70px;
+    height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.tombol-kanan,
+.symbolsamadengan {
+    background: #ff5c8a;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    margin: 0px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.symbolsamadengan {
+    width: 344px;
+    height: 50px;
+
+}
+
+.hapussemua,
+.backspace,
+.bagi {
+    background: #ff5c8a;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    margin: 0px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.mengetik {
+    width: 340px;
+    height: 25px;
+    font-size: 10px;
+    margin-left: 0.9ch;
+    padding: 2px;
+    border: none;
+    border-radius: 2px;
+    text-align: right;
+}
+
+
+
+/* css untuk mengatur program form */
+.program03 {
+    background-color: #ffe5ec;
+    width: 70%;
+    height: 165%;
+}
+
+.judul-form {
+    font-family: "Hany Petter font";
+    font-size: 80px;
+    text-align: center;
+
+}
+
+td {
+    font-family: "Hany Petter font";
+    font-size: 35px;
+}
+
+#nama {
+    border-radius: 15px;
+}
+
+#nim {
+    border-radius: 15px;
+}
+
+#kelas {
+    border-radius: 15px;
+}
+
+#gender {
+    border-radius: 15px;
+}
+
+#saran {
+
+    border-radius: 10px;
+}
+
+#tombol-kirim {
+    background-color: #52b788;
+    border: transparent;
+    height: 30px;
+    width: 55px;
+    margin-right: 2ch;
+    border-radius: 15px;
+}
+
+#tombol-batal {
+    background-color: #ff758f;
+    border: transparent;
+    width: 55px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#form-footer {
+    background: url(header_background.jpg);
+    font-family: "Hany Petter font";
+    height: 6%;
+    font-size: 29px;
+    text-align: center;
+}
+
+.form-huruf {
+    font-family: "Hany Petter font";
+    font-size: 30px;
+    font-weight: lighter;
+    text-decoration: none;
+
+}
